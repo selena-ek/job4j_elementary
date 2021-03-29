@@ -2,8 +2,8 @@ package ru.job4j.calculator;
 
 public class ArgMethod {
 
-    public static void hello(String name,String Name, String nAme) {
-        System.out.println("Hello," + name + "." + " Hello, " + Name + "." + " Hello, " + nAme + ".");
+    public static void hello(String nameOne,String nameTwo, String nameThree) {
+        System.out.println("Hello," + nameOne + "." + " Hello, " + nameTwo + "." + " Hello, " + nameThree + ".");
     }
 
     public static void hello(String name, int age) {
